@@ -1,11 +1,63 @@
-# Sample Snack app
+# Registro de Itens App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este é um aplicativo simples para registrar e gerenciar itens. Com ele, você pode adicionar, editar e excluir itens da sua lista.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Como executar o aplicativo
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+### Pré-requisitos
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- Node.js (https://nodejs.org)
+- React Native CLI (https://reactnative.dev/docs/environment-setup)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### Passos
+
+1. Clone o repositório para o seu ambiente local:
+
+git clone https://github.com/islleygithub/registro-de-itens-app.git
+
+2. Navegue para o diretório do projeto:
+
+cd registro-de-itens-app
+
+3. Instale as dependências do projeto:
+
+npm install
+
+4. Execute o aplicativo no emulador ou dispositivo conectado:
+
+npx react-native run-android # Para Android
+npx react-native run-ios # Para iOS
+
+
+Certifique-se de que você tenha um emulador Android/iOS configurado ou um dispositivo conectado via USB.
+
+## Telas do aplicativo
+
+### EditItemScreen.js
+
+Código da tela de edição de um item.
+
+### HomeScreen.js
+
+Código da tela principal do aplicativo, onde você pode adicionar, listar e gerenciar os itens.
+
+### Item.js
+
+Componente de item usado para exibir um item na lista.
+
+### ItemListScreen.js
+
+Código da tela de lista de itens, onde você pode visualizar e gerenciar todos os itens registrados.
+
+### LoginScreen.js
+
+Código da tela de login, onde você precisa inserir suas credenciais para acessar o aplicativo.
+
+## Contribuindo
+
+Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novas funcionalidades. Basta abrir uma issue ou enviar um pull request.
+
+
+
+
+
