@@ -52,6 +52,8 @@ Código da tela de lista de itens, onde você pode visualizar e gerenciar todos 
 ### LoginScreen.js
 
 Código da tela de login, onde você precisa inserir suas credenciais para acessar o aplicativo.
+  
+ **username (usuario) / password (senha)**
 
 ## Contribuindo
 
